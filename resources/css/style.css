@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+
+}
+.logo {
+
+}
+.mytimes {
+  color: MediumAquamarine;
+}
+.h1 {font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav li {
+display: inline-block;
+font: 14px;}
