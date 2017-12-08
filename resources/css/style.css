@@ -16,3 +16,7 @@
 .nav li {
 display: inline-block;
 font: 14px;}
+
+.nav {
+  align-items: flex-end;
+}
