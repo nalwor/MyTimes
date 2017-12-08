@@ -4,6 +4,10 @@
   align-items: center;
   border-bottom: black solid 1px;
   width: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  top: 0; /* Keeps it stuck at the top */
 }
 .logo {
   display: flex;
@@ -30,9 +34,10 @@ a {
 .column {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
   border: black solid 1px;
-  width: 80%;
+  position: relative;
+  top: 90px;
+
 }
 
 .column .large {
@@ -55,11 +60,41 @@ a {
   width: 240px;
   border: black solid 1px;
 }
-.headlines {
+.headline {
   border: black solid 1px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.headline p {
+  margin: 0;
+  padding: 0;
+}
+.first {
+  background-image: url(../images/img-story-main.png);
+  height: 300px;
+  font-size: 40px;
+}
+.second {
+  background-image: url(../images/img-story-2.png);
+  height: 300px;
+}
+.third {
+  background-image: url(../images/img-story-3.png);
+  height: 300px;
+}
+.forth {
+  background-image: url(../images/img-story-1.png);
+  height: 300px;
 }
 .story{
   display:block;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 }
 .mother {
 
